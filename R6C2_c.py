@@ -69,5 +69,5 @@ def R6C2_c(data, x, debut, fin, init, delta, p_max_chauf, p_max_clim):
         tih[i] = ((ts[i-1]-tih[i-1])/x[2]+(te[i-1]-tih[i-1])/x[6]+(ph[i]+(1-a)*x[8]*occ[i]-v*ve[i]*(tih[i-1]-te[i-1])))*delta/x[0]+tih[i-1]  
     
     
-
+#test
     return ph, tih , tm, f
